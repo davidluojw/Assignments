@@ -1,0 +1,3 @@
+把图片的数据增广操作集合到一个类里面:Data_augmentation这个类
+这个类主要包含11个方法，可以实现裁切（crop）、随机改变颜色（random_color）、提亮（brighter）、直方图均衡（histogram）、旋转（rotation）、相似变换（similarity_transform）、仿射变换（affine_transform）以及透视变换（perspective_transform），总共8种功能。
+每种方法均返回一个数组，此数组是对图片矩阵操作之后所得到的矩阵
